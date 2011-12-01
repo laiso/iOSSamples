@@ -1,0 +1,3 @@
+[submodule "CHCSVParserSample/CHCSVParser"]
+	path = CHCSVParserSample/CHCSVParser
+	url = https://github.com/davedelong/CHCSVParser.git

@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07CEE7A614873FA10090D641 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CEE7A514873FA10090D641 /* UIKit.framework */; };
+		07CEE7A814873FA10090D641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CEE7A714873FA10090D641 /* Foundation.framework */; };
+		07CEE7AA14873FA10090D641 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CEE7A914873FA10090D641 /* CoreGraphics.framework */; };
+		07CEE7B014873FA10090D641 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07CEE7AE14873FA10090D641 /* InfoPlist.strings */; };
+		07CEE7B214873FA10090D641 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CEE7B114873FA10090D641 /* main.m */; };
+		07CEE7B614873FA10090D641 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CEE7B514873FA10090D641 /* AppDelegate.m */; };
+		07CEE7BE14873FA10090D641 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CEE7BD14873FA10090D641 /* SenTestingKit.framework */; };
+		07CEE7BF14873FA10090D641 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CEE7A514873FA10090D641 /* UIKit.framework */; };
+		07CEE7C014873FA10090D641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CEE7A714873FA10090D641 /* Foundation.framework */; };
+		07CEE7C814873FA10090D641 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07CEE7C614873FA10090D641 /* InfoPlist.strings */; };
+		07CEE7CB14873FA20090D641 /* CHCSVParserSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CEE7CA14873FA20090D641 /* CHCSVParserSampleTests.m */; };
+		07CEE7DE148744470090D641 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CEE7DA148744470090D641 /* CHCSVParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		07CEE7DF148744470090D641 /* CHCSVWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CEE7DB148744470090D641 /* CHCSVWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		07CEE7E0148744470090D641 /* NSArray+CHCSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CEE7DC148744470090D641 /* NSArray+CHCSVAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		07CEE7E1148744470090D641 /* NSString+CHCSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CEE7DD148744470090D641 /* NSString+CHCSVAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		07CEE7E3148747AA0090D641 /* tepco.csv in Resources */ = {isa = PBXBuildFile; fileRef = 07CEE7E2148747AA0090D641 /* tepco.csv */; };
+		07CEE7E4148747AA0090D641 /* tepco.csv in Resources */ = {isa = PBXBuildFile; fileRef = 07CEE7E2148747AA0090D641 /* tepco.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07CEE7C114873FA10090D641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07CEE79814873FA10090D641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07CEE7A014873FA10090D641;
+			remoteInfo = CHCSVParserSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07CEE7A114873FA10090D641 /* CHCSVParserSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHCSVParserSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CEE7A514873FA10090D641 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07CEE7A714873FA10090D641 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07CEE7A914873FA10090D641 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07CEE7AD14873FA10090D641 /* CHCSVParserSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHCSVParserSample-Info.plist"; sourceTree = "<group>"; };
+		07CEE7AF14873FA10090D641 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07CEE7B114873FA10090D641 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07CEE7B314873FA10090D641 /* CHCSVParserSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHCSVParserSample-Prefix.pch"; sourceTree = "<group>"; };
+		07CEE7B414873FA10090D641 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07CEE7B514873FA10090D641 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07CEE7BC14873FA10090D641 /* CHCSVParserSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHCSVParserSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CEE7BD14873FA10090D641 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		07CEE7C514873FA10090D641 /* CHCSVParserSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHCSVParserSampleTests-Info.plist"; sourceTree = "<group>"; };
+		07CEE7C714873FA10090D641 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07CEE7C914873FA20090D641 /* CHCSVParserSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCSVParserSampleTests.h; sourceTree = "<group>"; };
+		07CEE7CA14873FA20090D641 /* CHCSVParserSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHCSVParserSampleTests.m; sourceTree = "<group>"; };
+		07CEE7D51487443A0090D641 /* CHCSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHCSV.h; path = CHCSVParser/CHCSV.h; sourceTree = "<group>"; };
+		07CEE7D61487443A0090D641 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHCSVParser.h; path = CHCSVParser/CHCSVParser.h; sourceTree = "<group>"; };
+		07CEE7D71487443A0090D641 /* CHCSVWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHCSVWriter.h; path = CHCSVParser/CHCSVWriter.h; sourceTree = "<group>"; };
+		07CEE7D81487443A0090D641 /* NSArray+CHCSVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+CHCSVAdditions.h"; path = "CHCSVParser/NSArray+CHCSVAdditions.h"; sourceTree = "<group>"; };
+		07CEE7D91487443A0090D641 /* NSString+CHCSVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CHCSVAdditions.h"; path = "CHCSVParser/NSString+CHCSVAdditions.h"; sourceTree = "<group>"; };
+		07CEE7DA148744470090D641 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHCSVParser.m; path = CHCSVParser/CHCSVParser.m; sourceTree = "<group>"; };
+		07CEE7DB148744470090D641 /* CHCSVWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHCSVWriter.m; path = CHCSVParser/CHCSVWriter.m; sourceTree = "<group>"; };
+		07CEE7DC148744470090D641 /* NSArray+CHCSVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+CHCSVAdditions.m"; path = "CHCSVParser/NSArray+CHCSVAdditions.m"; sourceTree = "<group>"; };
+		07CEE7DD148744470090D641 /* NSString+CHCSVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CHCSVAdditions.m"; path = "CHCSVParser/NSString+CHCSVAdditions.m"; sourceTree = "<group>"; };
+		07CEE7E2148747AA0090D641 /* tepco.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tepco.csv; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07CEE79E14873FA10090D641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CEE7A614873FA10090D641 /* UIKit.framework in Frameworks */,
+				07CEE7A814873FA10090D641 /* Foundation.framework in Frameworks */,
+				07CEE7AA14873FA10090D641 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CEE7B814873FA10090D641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CEE7BE14873FA10090D641 /* SenTestingKit.framework in Frameworks */,
+				07CEE7BF14873FA10090D641 /* UIKit.framework in Frameworks */,
+				07CEE7C014873FA10090D641 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07CEE79614873FA10090D641 = {
+			isa = PBXGroup;
+			children = (
+				07CEE7D41487442F0090D641 /* CHCSVParser */,
+				07CEE7AB14873FA10090D641 /* CHCSVParserSample */,
+				07CEE7C314873FA10090D641 /* CHCSVParserSampleTests */,
+				07CEE7A414873FA10090D641 /* Frameworks */,
+				07CEE7A214873FA10090D641 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07CEE7A214873FA10090D641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07CEE7A114873FA10090D641 /* CHCSVParserSample.app */,
+				07CEE7BC14873FA10090D641 /* CHCSVParserSampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07CEE7A414873FA10090D641 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07CEE7A514873FA10090D641 /* UIKit.framework */,
+				07CEE7A714873FA10090D641 /* Foundation.framework */,
+				07CEE7A914873FA10090D641 /* CoreGraphics.framework */,
+				07CEE7BD14873FA10090D641 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07CEE7AB14873FA10090D641 /* CHCSVParserSample */ = {
+			isa = PBXGroup;
+			children = (
+				07CEE7B414873FA10090D641 /* AppDelegate.h */,
+				07CEE7B514873FA10090D641 /* AppDelegate.m */,
+				07CEE7AC14873FA10090D641 /* Supporting Files */,
+			);
+			path = CHCSVParserSample;
+			sourceTree = "<group>";
+		};
+		07CEE7AC14873FA10090D641 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07CEE7AD14873FA10090D641 /* CHCSVParserSample-Info.plist */,
+				07CEE7AE14873FA10090D641 /* InfoPlist.strings */,
+				07CEE7B114873FA10090D641 /* main.m */,
+				07CEE7B314873FA10090D641 /* CHCSVParserSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07CEE7C314873FA10090D641 /* CHCSVParserSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				07CEE7C914873FA20090D641 /* CHCSVParserSampleTests.h */,
+				07CEE7CA14873FA20090D641 /* CHCSVParserSampleTests.m */,
+				07CEE7C414873FA10090D641 /* Supporting Files */,
+			);
+			path = CHCSVParserSampleTests;
+			sourceTree = "<group>";
+		};
+		07CEE7C414873FA10090D641 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07CEE7E2148747AA0090D641 /* tepco.csv */,
+				07CEE7C514873FA10090D641 /* CHCSVParserSampleTests-Info.plist */,
+				07CEE7C614873FA10090D641 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07CEE7D41487442F0090D641 /* CHCSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				07CEE7D51487443A0090D641 /* CHCSV.h */,
+				07CEE7D61487443A0090D641 /* CHCSVParser.h */,
+				07CEE7D71487443A0090D641 /* CHCSVWriter.h */,
+				07CEE7D81487443A0090D641 /* NSArray+CHCSVAdditions.h */,
+				07CEE7D91487443A0090D641 /* NSString+CHCSVAdditions.h */,
+				07CEE7DA148744470090D641 /* CHCSVParser.m */,
+				07CEE7DB148744470090D641 /* CHCSVWriter.m */,
+				07CEE7DC148744470090D641 /* NSArray+CHCSVAdditions.m */,
+				07CEE7DD148744470090D641 /* NSString+CHCSVAdditions.m */,
+			);
+			name = CHCSVParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07CEE7A014873FA10090D641 /* CHCSVParserSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CEE7CE14873FA20090D641 /* Build configuration list for PBXNativeTarget "CHCSVParserSample" */;
+			buildPhases = (
+				07CEE79D14873FA10090D641 /* Sources */,
+				07CEE79E14873FA10090D641 /* Frameworks */,
+				07CEE79F14873FA10090D641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHCSVParserSample;
+			productName = CHCSVParserSample;
+			productReference = 07CEE7A114873FA10090D641 /* CHCSVParserSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07CEE7BB14873FA10090D641 /* CHCSVParserSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CEE7D114873FA20090D641 /* Build configuration list for PBXNativeTarget "CHCSVParserSampleTests" */;
+			buildPhases = (
+				07CEE7B714873FA10090D641 /* Sources */,
+				07CEE7B814873FA10090D641 /* Frameworks */,
+				07CEE7B914873FA10090D641 /* Resources */,
+				07CEE7BA14873FA10090D641 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07CEE7C214873FA10090D641 /* PBXTargetDependency */,
+			);
+			name = CHCSVParserSampleTests;
+			productName = CHCSVParserSampleTests;
+			productReference = 07CEE7BC14873FA10090D641 /* CHCSVParserSampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07CEE79814873FA10090D641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 07CEE79B14873FA10090D641 /* Build configuration list for PBXProject "CHCSVParserSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07CEE79614873FA10090D641;
+			productRefGroup = 07CEE7A214873FA10090D641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07CEE7A014873FA10090D641 /* CHCSVParserSample */,
+				07CEE7BB14873FA10090D641 /* CHCSVParserSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07CEE79F14873FA10090D641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CEE7B014873FA10090D641 /* InfoPlist.strings in Resources */,
+				07CEE7E3148747AA0090D641 /* tepco.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CEE7B914873FA10090D641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CEE7C814873FA10090D641 /* InfoPlist.strings in Resources */,
+				07CEE7E4148747AA0090D641 /* tepco.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07CEE7BA14873FA10090D641 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07CEE79D14873FA10090D641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CEE7B214873FA10090D641 /* main.m in Sources */,
+				07CEE7B614873FA10090D641 /* AppDelegate.m in Sources */,
+				07CEE7DE148744470090D641 /* CHCSVParser.m in Sources */,
+				07CEE7DF148744470090D641 /* CHCSVWriter.m in Sources */,
+				07CEE7E0148744470090D641 /* NSArray+CHCSVAdditions.m in Sources */,
+				07CEE7E1148744470090D641 /* NSString+CHCSVAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CEE7B714873FA10090D641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CEE7CB14873FA20090D641 /* CHCSVParserSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07CEE7C214873FA10090D641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07CEE7A014873FA10090D641 /* CHCSVParserSample */;
+			targetProxy = 07CEE7C114873FA10090D641 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07CEE7AE14873FA10090D641 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CEE7AF14873FA10090D641 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07CEE7C614873FA10090D641 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CEE7C714873FA10090D641 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07CEE7CC14873FA20090D641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07CEE7CD14873FA20090D641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07CEE7CF14873FA20090D641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHCSVParserSample/CHCSVParserSample-Prefix.pch";
+				INFOPLIST_FILE = "CHCSVParserSample/CHCSVParserSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07CEE7D014873FA20090D641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHCSVParserSample/CHCSVParserSample-Prefix.pch";
+				INFOPLIST_FILE = "CHCSVParserSample/CHCSVParserSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07CEE7D214873FA20090D641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CHCSVParserSample.app/CHCSVParserSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHCSVParserSample/CHCSVParserSample-Prefix.pch";
+				INFOPLIST_FILE = "CHCSVParserSampleTests/CHCSVParserSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		07CEE7D314873FA20090D641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CHCSVParserSample.app/CHCSVParserSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHCSVParserSample/CHCSVParserSample-Prefix.pch";
+				INFOPLIST_FILE = "CHCSVParserSampleTests/CHCSVParserSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07CEE79B14873FA10090D641 /* Build configuration list for PBXProject "CHCSVParserSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CEE7CC14873FA20090D641 /* Debug */,
+				07CEE7CD14873FA20090D641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07CEE7CE14873FA20090D641 /* Build configuration list for PBXNativeTarget "CHCSVParserSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CEE7CF14873FA20090D641 /* Debug */,
+				07CEE7D014873FA20090D641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07CEE7D114873FA20090D641 /* Build configuration list for PBXNativeTarget "CHCSVParserSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CEE7D214873FA20090D641 /* Debug */,
+				07CEE7D314873FA20090D641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07CEE79814873FA10090D641 /* Project object */;
+}
