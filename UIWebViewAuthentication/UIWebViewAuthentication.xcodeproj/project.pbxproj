@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C1B77914FF8ABD00F1AD6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C1B77814FF8ABD00F1AD6B /* UIKit.framework */; };
+		07C1B77B14FF8ABD00F1AD6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C1B77A14FF8ABD00F1AD6B /* Foundation.framework */; };
+		07C1B77D14FF8ABD00F1AD6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C1B77C14FF8ABD00F1AD6B /* CoreGraphics.framework */; };
+		07C1B78314FF8ABD00F1AD6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07C1B78114FF8ABD00F1AD6B /* InfoPlist.strings */; };
+		07C1B78514FF8ABD00F1AD6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1B78414FF8ABD00F1AD6B /* main.m */; };
+		07C1B78914FF8ABD00F1AD6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1B78814FF8ABD00F1AD6B /* AppDelegate.m */; };
+		07C1B78C14FF8ABD00F1AD6B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1B78B14FF8ABD00F1AD6B /* MasterViewController.m */; };
+		07C1B78F14FF8ABD00F1AD6B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1B78E14FF8ABD00F1AD6B /* DetailViewController.m */; };
+		07C1B79214FF8ABD00F1AD6B /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C1B79014FF8ABD00F1AD6B /* MasterViewController.xib */; };
+		07C1B7A114FFA46200F1AD6B /* GTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1B7A014FFA46200F1AD6B /* GTMStringEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		07C1B7A614FFAF7E00F1AD6B /* USENSURLCredentialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1B7A514FFAF7E00F1AD6B /* USENSURLCredentialViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07C1B77414FF8ABD00F1AD6B /* UIWebViewAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebViewAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C1B77814FF8ABD00F1AD6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07C1B77A14FF8ABD00F1AD6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07C1B77C14FF8ABD00F1AD6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07C1B78014FF8ABD00F1AD6B /* UIWebViewAuthentication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWebViewAuthentication-Info.plist"; sourceTree = "<group>"; };
+		07C1B78214FF8ABD00F1AD6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07C1B78414FF8ABD00F1AD6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07C1B78614FF8ABD00F1AD6B /* UIWebViewAuthentication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWebViewAuthentication-Prefix.pch"; sourceTree = "<group>"; };
+		07C1B78714FF8ABD00F1AD6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07C1B78814FF8ABD00F1AD6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07C1B78A14FF8ABD00F1AD6B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		07C1B78B14FF8ABD00F1AD6B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		07C1B78D14FF8ABD00F1AD6B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		07C1B78E14FF8ABD00F1AD6B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		07C1B79114FF8ABD00F1AD6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		07C1B79F14FFA46200F1AD6B /* GTMStringEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMStringEncoding.h; sourceTree = "<group>"; };
+		07C1B7A014FFA46200F1AD6B /* GTMStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMStringEncoding.m; sourceTree = "<group>"; };
+		07C1B7A214FFA4AA00F1AD6B /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		07C1B7A414FFAF7E00F1AD6B /* USENSURLCredentialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USENSURLCredentialViewController.h; sourceTree = "<group>"; };
+		07C1B7A514FFAF7E00F1AD6B /* USENSURLCredentialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USENSURLCredentialViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07C1B77114FF8ABD00F1AD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C1B77914FF8ABD00F1AD6B /* UIKit.framework in Frameworks */,
+				07C1B77B14FF8ABD00F1AD6B /* Foundation.framework in Frameworks */,
+				07C1B77D14FF8ABD00F1AD6B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C1B76914FF8ABD00F1AD6B = {
+			isa = PBXGroup;
+			children = (
+				07C1B7A314FFAF2300F1AD6B /* USENSURLCredential */,
+				07C1B7A214FFA4AA00F1AD6B /* GTMDefines.h */,
+				07C1B79F14FFA46200F1AD6B /* GTMStringEncoding.h */,
+				07C1B7A014FFA46200F1AD6B /* GTMStringEncoding.m */,
+				07C1B77E14FF8ABD00F1AD6B /* UIWebViewAuthentication */,
+				07C1B77714FF8ABD00F1AD6B /* Frameworks */,
+				07C1B77514FF8ABD00F1AD6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07C1B77514FF8ABD00F1AD6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07C1B77414FF8ABD00F1AD6B /* UIWebViewAuthentication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07C1B77714FF8ABD00F1AD6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07C1B77814FF8ABD00F1AD6B /* UIKit.framework */,
+				07C1B77A14FF8ABD00F1AD6B /* Foundation.framework */,
+				07C1B77C14FF8ABD00F1AD6B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07C1B77E14FF8ABD00F1AD6B /* UIWebViewAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				07C1B78714FF8ABD00F1AD6B /* AppDelegate.h */,
+				07C1B78814FF8ABD00F1AD6B /* AppDelegate.m */,
+				07C1B78A14FF8ABD00F1AD6B /* MasterViewController.h */,
+				07C1B78B14FF8ABD00F1AD6B /* MasterViewController.m */,
+				07C1B78D14FF8ABD00F1AD6B /* DetailViewController.h */,
+				07C1B78E14FF8ABD00F1AD6B /* DetailViewController.m */,
+				07C1B79014FF8ABD00F1AD6B /* MasterViewController.xib */,
+				07C1B77F14FF8ABD00F1AD6B /* Supporting Files */,
+			);
+			path = UIWebViewAuthentication;
+			sourceTree = "<group>";
+		};
+		07C1B77F14FF8ABD00F1AD6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07C1B78014FF8ABD00F1AD6B /* UIWebViewAuthentication-Info.plist */,
+				07C1B78114FF8ABD00F1AD6B /* InfoPlist.strings */,
+				07C1B78414FF8ABD00F1AD6B /* main.m */,
+				07C1B78614FF8ABD00F1AD6B /* UIWebViewAuthentication-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07C1B7A314FFAF2300F1AD6B /* USENSURLCredential */ = {
+			isa = PBXGroup;
+			children = (
+				07C1B7A414FFAF7E00F1AD6B /* USENSURLCredentialViewController.h */,
+				07C1B7A514FFAF7E00F1AD6B /* USENSURLCredentialViewController.m */,
+			);
+			path = USENSURLCredential;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07C1B77314FF8ABD00F1AD6B /* UIWebViewAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C1B79814FF8ABD00F1AD6B /* Build configuration list for PBXNativeTarget "UIWebViewAuthentication" */;
+			buildPhases = (
+				07C1B77014FF8ABD00F1AD6B /* Sources */,
+				07C1B77114FF8ABD00F1AD6B /* Frameworks */,
+				07C1B77214FF8ABD00F1AD6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIWebViewAuthentication;
+			productName = UIWebViewAuthentication;
+			productReference = 07C1B77414FF8ABD00F1AD6B /* UIWebViewAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07C1B76B14FF8ABD00F1AD6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 07C1B76E14FF8ABD00F1AD6B /* Build configuration list for PBXProject "UIWebViewAuthentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07C1B76914FF8ABD00F1AD6B;
+			productRefGroup = 07C1B77514FF8ABD00F1AD6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07C1B77314FF8ABD00F1AD6B /* UIWebViewAuthentication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07C1B77214FF8ABD00F1AD6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C1B78314FF8ABD00F1AD6B /* InfoPlist.strings in Resources */,
+				07C1B79214FF8ABD00F1AD6B /* MasterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07C1B77014FF8ABD00F1AD6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C1B78514FF8ABD00F1AD6B /* main.m in Sources */,
+				07C1B78914FF8ABD00F1AD6B /* AppDelegate.m in Sources */,
+				07C1B78C14FF8ABD00F1AD6B /* MasterViewController.m in Sources */,
+				07C1B78F14FF8ABD00F1AD6B /* DetailViewController.m in Sources */,
+				07C1B7A114FFA46200F1AD6B /* GTMStringEncoding.m in Sources */,
+				07C1B7A614FFAF7E00F1AD6B /* USENSURLCredentialViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07C1B78114FF8ABD00F1AD6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C1B78214FF8ABD00F1AD6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07C1B79014FF8ABD00F1AD6B /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C1B79114FF8ABD00F1AD6B /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07C1B79614FF8ABD00F1AD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07C1B79714FF8ABD00F1AD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07C1B79914FF8ABD00F1AD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewAuthentication/UIWebViewAuthentication-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewAuthentication/UIWebViewAuthentication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07C1B79A14FF8ABD00F1AD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewAuthentication/UIWebViewAuthentication-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewAuthentication/UIWebViewAuthentication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C1B76E14FF8ABD00F1AD6B /* Build configuration list for PBXProject "UIWebViewAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C1B79614FF8ABD00F1AD6B /* Debug */,
+				07C1B79714FF8ABD00F1AD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C1B79814FF8ABD00F1AD6B /* Build configuration list for PBXNativeTarget "UIWebViewAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C1B79914FF8ABD00F1AD6B /* Debug */,
+				07C1B79A14FF8ABD00F1AD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07C1B76B14FF8ABD00F1AD6B /* Project object */;
+}
