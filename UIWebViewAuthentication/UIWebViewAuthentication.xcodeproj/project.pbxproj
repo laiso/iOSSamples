@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		076F6384150084DE00AC36CA /* USECredentialStorageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F6383150084DE00AC36CA /* USECredentialStorageViewController.m */; };
+		076F6388150088A200AC36CA /* DefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F6387150088A200AC36CA /* DefaultViewController.m */; };
 		07C1B77914FF8ABD00F1AD6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C1B77814FF8ABD00F1AD6B /* UIKit.framework */; };
 		07C1B77B14FF8ABD00F1AD6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C1B77A14FF8ABD00F1AD6B /* Foundation.framework */; };
 		07C1B77D14FF8ABD00F1AD6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C1B77C14FF8ABD00F1AD6B /* CoreGraphics.framework */; };
@@ -18,9 +20,26 @@
 		07C1B79214FF8ABD00F1AD6B /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C1B79014FF8ABD00F1AD6B /* MasterViewController.xib */; };
 		07C1B7A114FFA46200F1AD6B /* GTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1B7A014FFA46200F1AD6B /* GTMStringEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		07C1B7A614FFAF7E00F1AD6B /* USENSURLCredentialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1B7A514FFAF7E00F1AD6B /* USENSURLCredentialViewController.m */; };
+		07C3F03A1500A22400E8EFDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1B78414FF8ABD00F1AD6B /* main.m */; };
+		07C3F03B1500A22400E8EFDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1B78814FF8ABD00F1AD6B /* AppDelegate.m */; };
+		07C3F03C1500A22400E8EFDB /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1B78B14FF8ABD00F1AD6B /* MasterViewController.m */; };
+		07C3F03D1500A22400E8EFDB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1B78E14FF8ABD00F1AD6B /* DetailViewController.m */; };
+		07C3F03E1500A22400E8EFDB /* GTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1B7A014FFA46200F1AD6B /* GTMStringEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		07C3F03F1500A22400E8EFDB /* USENSURLCredentialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1B7A514FFAF7E00F1AD6B /* USENSURLCredentialViewController.m */; };
+		07C3F0401500A22400E8EFDB /* USECredentialStorageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F6383150084DE00AC36CA /* USECredentialStorageViewController.m */; };
+		07C3F0411500A22400E8EFDB /* DefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F6387150088A200AC36CA /* DefaultViewController.m */; };
+		07C3F0431500A22400E8EFDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C1B77814FF8ABD00F1AD6B /* UIKit.framework */; };
+		07C3F0441500A22400E8EFDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C1B77A14FF8ABD00F1AD6B /* Foundation.framework */; };
+		07C3F0451500A22400E8EFDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C1B77C14FF8ABD00F1AD6B /* CoreGraphics.framework */; };
+		07C3F0471500A22400E8EFDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07C1B78114FF8ABD00F1AD6B /* InfoPlist.strings */; };
+		07C3F0481500A22400E8EFDB /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07C1B79014FF8ABD00F1AD6B /* MasterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		076F6382150084DE00AC36CA /* USECredentialStorageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USECredentialStorageViewController.h; sourceTree = "<group>"; };
+		076F6383150084DE00AC36CA /* USECredentialStorageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USECredentialStorageViewController.m; sourceTree = "<group>"; };
+		076F6386150088A200AC36CA /* DefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultViewController.h; sourceTree = "<group>"; };
+		076F6387150088A200AC36CA /* DefaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultViewController.m; sourceTree = "<group>"; };
 		07C1B77414FF8ABD00F1AD6B /* UIWebViewAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebViewAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C1B77814FF8ABD00F1AD6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		07C1B77A14FF8ABD00F1AD6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -41,6 +60,8 @@
 		07C1B7A214FFA4AA00F1AD6B /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		07C1B7A414FFAF7E00F1AD6B /* USENSURLCredentialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USENSURLCredentialViewController.h; sourceTree = "<group>"; };
 		07C1B7A514FFAF7E00F1AD6B /* USENSURLCredentialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USENSURLCredentialViewController.m; sourceTree = "<group>"; };
+		07C3F04C1500A22400E8EFDB /* UIWebViewAuthentication copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIWebViewAuthentication copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C3F04F1500A22400E8EFDB /* UIWebViewAuthentication copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "UIWebViewAuthentication copy-Info.plist"; path = "/Users/kstg/workspace/iOSSamples/UIWebViewAuthentication/UIWebViewAuthentication copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +75,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		07C3F0421500A22400E8EFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C3F0431500A22400E8EFDB /* UIKit.framework in Frameworks */,
+				07C3F0441500A22400E8EFDB /* Foundation.framework in Frameworks */,
+				07C3F0451500A22400E8EFDB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		076F6381150084DE00AC36CA /* USECredentialStorage */ = {
+			isa = PBXGroup;
+			children = (
+				076F6382150084DE00AC36CA /* USECredentialStorageViewController.h */,
+				076F6383150084DE00AC36CA /* USECredentialStorageViewController.m */,
+			);
+			path = USECredentialStorage;
+			sourceTree = "<group>";
+		};
 		07C1B76914FF8ABD00F1AD6B = {
 			isa = PBXGroup;
 			children = (
+				076F6381150084DE00AC36CA /* USECredentialStorage */,
 				07C1B7A314FFAF2300F1AD6B /* USENSURLCredential */,
 				07C1B7A214FFA4AA00F1AD6B /* GTMDefines.h */,
 				07C1B79F14FFA46200F1AD6B /* GTMStringEncoding.h */,
@@ -67,6 +108,7 @@
 				07C1B77E14FF8ABD00F1AD6B /* UIWebViewAuthentication */,
 				07C1B77714FF8ABD00F1AD6B /* Frameworks */,
 				07C1B77514FF8ABD00F1AD6B /* Products */,
+				07C3F04F1500A22400E8EFDB /* UIWebViewAuthentication copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				07C1B77414FF8ABD00F1AD6B /* UIWebViewAuthentication.app */,
+				07C3F04C1500A22400E8EFDB /* UIWebViewAuthentication copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,6 +134,8 @@
 		07C1B77E14FF8ABD00F1AD6B /* UIWebViewAuthentication */ = {
 			isa = PBXGroup;
 			children = (
+				076F6386150088A200AC36CA /* DefaultViewController.h */,
+				076F6387150088A200AC36CA /* DefaultViewController.m */,
 				07C1B78714FF8ABD00F1AD6B /* AppDelegate.h */,
 				07C1B78814FF8ABD00F1AD6B /* AppDelegate.m */,
 				07C1B78A14FF8ABD00F1AD6B /* MasterViewController.h */,
@@ -143,6 +188,23 @@
 			productReference = 07C1B77414FF8ABD00F1AD6B /* UIWebViewAuthentication.app */;
 			productType = "com.apple.product-type.application";
 		};
+		07C3F0381500A22400E8EFDB /* UIWebViewAuthentication copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C3F0491500A22400E8EFDB /* Build configuration list for PBXNativeTarget "UIWebViewAuthentication copy" */;
+			buildPhases = (
+				07C3F0391500A22400E8EFDB /* Sources */,
+				07C3F0421500A22400E8EFDB /* Frameworks */,
+				07C3F0461500A22400E8EFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIWebViewAuthentication copy";
+			productName = UIWebViewAuthentication;
+			productReference = 07C3F04C1500A22400E8EFDB /* UIWebViewAuthentication copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				07C1B77314FF8ABD00F1AD6B /* UIWebViewAuthentication */,
+				07C3F0381500A22400E8EFDB /* UIWebViewAuthentication copy */,
 			);
 		};
 /* End PBXProject section */
@@ -175,6 +238,15 @@
 			files = (
 				07C1B78314FF8ABD00F1AD6B /* InfoPlist.strings in Resources */,
 				07C1B79214FF8ABD00F1AD6B /* MasterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C3F0461500A22400E8EFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C3F0471500A22400E8EFDB /* InfoPlist.strings in Resources */,
+				07C3F0481500A22400E8EFDB /* MasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +263,23 @@
 				07C1B78F14FF8ABD00F1AD6B /* DetailViewController.m in Sources */,
 				07C1B7A114FFA46200F1AD6B /* GTMStringEncoding.m in Sources */,
 				07C1B7A614FFAF7E00F1AD6B /* USENSURLCredentialViewController.m in Sources */,
+				076F6384150084DE00AC36CA /* USECredentialStorageViewController.m in Sources */,
+				076F6388150088A200AC36CA /* DefaultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C3F0391500A22400E8EFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C3F03A1500A22400E8EFDB /* main.m in Sources */,
+				07C3F03B1500A22400E8EFDB /* AppDelegate.m in Sources */,
+				07C3F03C1500A22400E8EFDB /* MasterViewController.m in Sources */,
+				07C3F03D1500A22400E8EFDB /* DetailViewController.m in Sources */,
+				07C3F03E1500A22400E8EFDB /* GTMStringEncoding.m in Sources */,
+				07C3F03F1500A22400E8EFDB /* USENSURLCredentialViewController.m in Sources */,
+				07C3F0401500A22400E8EFDB /* USECredentialStorageViewController.m in Sources */,
+				07C3F0411500A22400E8EFDB /* DefaultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +356,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIWebViewAuthentication/UIWebViewAuthentication-Prefix.pch";
 				INFOPLIST_FILE = "UIWebViewAuthentication/UIWebViewAuthentication-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -278,7 +368,32 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIWebViewAuthentication/UIWebViewAuthentication-Prefix.pch";
 				INFOPLIST_FILE = "UIWebViewAuthentication/UIWebViewAuthentication-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07C3F04A1500A22400E8EFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewAuthentication/UIWebViewAuthentication-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewAuthentication copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "UIWebViewAuthentication copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07C3F04B1500A22400E8EFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIWebViewAuthentication/UIWebViewAuthentication-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewAuthentication copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "UIWebViewAuthentication copy";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -302,6 +417,16 @@
 				07C1B79A14FF8ABD00F1AD6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C3F0491500A22400E8EFDB /* Build configuration list for PBXNativeTarget "UIWebViewAuthentication copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C3F04A1500A22400E8EFDB /* Debug */,
+				07C3F04B1500A22400E8EFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,7 +5,9 @@
 #import "MasterViewController.h"
 
 #import "DetailViewController.h"
+#import "DefaultViewController.h"
 #import "USENSURLCredentialViewController.h"
+#import "USECredentialStorageViewController.h"
 
 @implementation MasterViewController
 
@@ -75,7 +77,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-  return 2;
+  return 4;
 }
 
 // Customize the appearance of table view cells.
@@ -92,10 +94,15 @@
   // Configure the cell.
   
   if(indexPath.row == 0){
-    cell.textLabel.text = @"UIWebView delegate";
+    cell.textLabel.text = @"UIWebView monkey";
+  }else if(indexPath.row == 1){
+    cell.textLabel.text = @"NSURLConnection";  
+  }else if(indexPath.row == 2){
+    cell.textLabel.text = @"NSURLCredentialStorage";  
   }else{
-    cell.textLabel.text = @"NSURLCredential";  
+    cell.textLabel.text = @"Default";  
   }
+
   return cell;
 }
 
@@ -104,10 +111,14 @@
   UIViewController* controller;
   if(indexPath.row == 0){
     controller = [[DetailViewController alloc] init];
-  }else{
+  }else if(indexPath.row == 1){
     controller = [[USENSURLCredentialViewController alloc] init];
+  }else if(indexPath.row == 2){
+    controller = [[USECredentialStorageViewController alloc] init];
+  }else{
+    controller = [[DefaultViewController alloc] init];
   }
-  
+
   [self.navigationController pushViewController:controller animated:YES];
 }
 
