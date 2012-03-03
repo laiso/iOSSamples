@@ -14,7 +14,7 @@
   UIWebView* _webView;
 }
 - (void)configureView;
-- (void)registerMyCredential;
+- (void)setCredential;
 @end
 
 @implementation USECredentialStorageViewController
@@ -60,23 +60,23 @@
 {
   [super viewDidLoad];
   
-  [self registerMyCredential];
+  [self setCredential];
   [self configureView];
 }
 
-- (void)registerMyCredential
+- (void)setCredential
 {  
-  NSURLCredential* creds = [NSURLCredential credentialWithUser:USER password:PASSWORD persistence:NSURLCredentialPersistencePermanent];
+  NSURLCredential* creds = [NSURLCredential credentialWithUser:USER password:PASSWORD persistence:NSURLCredentialPersistenceForSession];
   NSURLCredentialStorage* store = [NSURLCredentialStorage sharedCredentialStorage];
   
   NSURL* url = [NSURL URLWithString:DEFAULT_URL];
-  NSURLProtectionSpace* space = [[NSURLProtectionSpace alloc] initWithHost:url.host
-                                                                      port:[url.port integerValue]
+  NSURLProtectionSpace* protectionSpace = [[NSURLProtectionSpace alloc] initWithHost:url.host
+                                                                      port:80 
                                                                   protocol:url.scheme 
                                                                      realm:@"Input ID and Password." 
                                                       authenticationMethod:NSURLAuthenticationMethodDefault];
   
-  [store setDefaultCredential:creds forProtectionSpace:space];
+  [store setCredential:creds forProtectionSpace:protectionSpace];
 }
 
 - (void)configureView
