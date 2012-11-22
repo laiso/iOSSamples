@@ -13,7 +13,7 @@
 
 // 他のテストに影響が出る: 混ぜるな危険
 
-
+/*
 - (void)setUp
 {
   [super setUp];
@@ -37,5 +37,6 @@
   }];
   [self waitForTimeout:3];
 }
+*/
 
 @end

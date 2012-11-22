@@ -38,6 +38,10 @@
 		071D1821165E337700391855 /* WithNLTHTTPStubServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D1820165E337700391855 /* WithNLTHTTPStubServerTests.m */; };
 		071D1823165E3E4B00391855 /* WithOCMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D1822165E3E4B00391855 /* WithOCMockTests.m */; };
 		071D182C165E489100391855 /* WithMethodSwizzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D182B165E489000391855 /* WithMethodSwizzTests.m */; };
+		071D1872165E797300391855 /* FakeWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D186C165E797300391855 /* FakeWeb.m */; };
+		071D1873165E797300391855 /* FakeWebResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D186E165E797300391855 /* FakeWebResponder.m */; };
+		071D1874165E797300391855 /* NSURLConnection+FakeWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D1870165E797300391855 /* NSURLConnection+FakeWeb.m */; };
+		071D1876165E799800391855 /* WithFakeWebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D1875165E799800391855 /* WithFakeWebTests.m */; };
 		F10B5B7958144347990190E5 /* libPods-FakeResponseAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D549D3A02A43D8954E9BDB /* libPods-FakeResponseAppTests.a */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +99,15 @@
 		071D1820165E337700391855 /* WithNLTHTTPStubServerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithNLTHTTPStubServerTests.m; sourceTree = "<group>"; };
 		071D1822165E3E4B00391855 /* WithOCMockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithOCMockTests.m; sourceTree = "<group>"; };
 		071D182B165E489000391855 /* WithMethodSwizzTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithMethodSwizzTests.m; sourceTree = "<group>"; };
+		071D1869165E797300391855 /* FakeWeb+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FakeWeb+Private.h"; sourceTree = "<group>"; };
+		071D186A165E797300391855 /* FakeWeb-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FakeWeb-Prefix.pch"; sourceTree = "<group>"; };
+		071D186B165E797300391855 /* FakeWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeWeb.h; sourceTree = "<group>"; };
+		071D186C165E797300391855 /* FakeWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeWeb.m; sourceTree = "<group>"; };
+		071D186D165E797300391855 /* FakeWebResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeWebResponder.h; sourceTree = "<group>"; };
+		071D186E165E797300391855 /* FakeWebResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeWebResponder.m; sourceTree = "<group>"; };
+		071D186F165E797300391855 /* NSURLConnection+FakeWeb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+FakeWeb.h"; sourceTree = "<group>"; };
+		071D1870165E797300391855 /* NSURLConnection+FakeWeb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+FakeWeb.m"; sourceTree = "<group>"; };
+		071D1875165E799800391855 /* WithFakeWebTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WithFakeWebTests.m; sourceTree = "<group>"; };
 		A0D549D3A02A43D8954E9BDB /* libPods-FakeResponseAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FakeResponseAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -199,6 +212,7 @@
 				071D1820165E337700391855 /* WithNLTHTTPStubServerTests.m */,
 				071D1822165E3E4B00391855 /* WithOCMockTests.m */,
 				071D182B165E489000391855 /* WithMethodSwizzTests.m */,
+				071D1875165E799800391855 /* WithFakeWebTests.m */,
 			);
 			path = FakeResponseAppTests;
 			sourceTree = "<group>";
@@ -216,6 +230,7 @@
 		071D1796165DE85B00391855 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				071D1866165E797300391855 /* FakeWeb */,
 				071D1814165E2C3300391855 /* NSURLConnectionVCR */,
 				071D17BD165E20C700391855 /* ILTesting */,
 				071D1797165DE85B00391855 /* SenAsyncTestCase */,
@@ -252,6 +267,22 @@
 			);
 			name = NSURLConnectionVCR;
 			path = NSURLConnectionVCR/NSURLConnectionVCR;
+			sourceTree = "<group>";
+		};
+		071D1866165E797300391855 /* FakeWeb */ = {
+			isa = PBXGroup;
+			children = (
+				071D1869165E797300391855 /* FakeWeb+Private.h */,
+				071D186A165E797300391855 /* FakeWeb-Prefix.pch */,
+				071D186B165E797300391855 /* FakeWeb.h */,
+				071D186C165E797300391855 /* FakeWeb.m */,
+				071D186D165E797300391855 /* FakeWebResponder.h */,
+				071D186E165E797300391855 /* FakeWebResponder.m */,
+				071D186F165E797300391855 /* NSURLConnection+FakeWeb.h */,
+				071D1870165E797300391855 /* NSURLConnection+FakeWeb.m */,
+			);
+			name = FakeWeb;
+			path = "iOS-FakeWeb/FakeWeb";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +436,10 @@
 				071D1821165E337700391855 /* WithNLTHTTPStubServerTests.m in Sources */,
 				071D1823165E3E4B00391855 /* WithOCMockTests.m in Sources */,
 				071D182C165E489100391855 /* WithMethodSwizzTests.m in Sources */,
+				071D1872165E797300391855 /* FakeWeb.m in Sources */,
+				071D1873165E797300391855 /* FakeWebResponder.m in Sources */,
+				071D1874165E797300391855 /* NSURLConnection+FakeWeb.m in Sources */,
+				071D1876165E799800391855 /* WithFakeWebTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
