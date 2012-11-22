@@ -20,12 +20,7 @@
 {
   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   
-  // clean
-  NSURLCredentialStorage* store = [NSURLCredentialStorage sharedCredentialStorage];
-  [[store allCredentials] enumerateKeysAndObjectsUsingBlock:^(NSURLProtectionSpace* space, NSDictionary* credHash, BOOL *stop) {
-    NSURLCredential* cred = [credHash objectForKey:USER];
-    [store removeCredential:cred forProtectionSpace:space];
-  }];
+  //[self removeCredentials];
   
   MasterViewController *masterViewController = [[MasterViewController alloc] initWithNibName:@"MasterViewController" bundle:nil];
   
@@ -33,6 +28,15 @@
   self.window.rootViewController = self.navigationController;
   [self.window makeKeyAndVisible];
   return YES;
+}
+
+- (void)removeCredentials
+{
+  NSURLCredentialStorage* store = [NSURLCredentialStorage sharedCredentialStorage];
+  [[store allCredentials] enumerateKeysAndObjectsUsingBlock:^(NSURLProtectionSpace* space, NSDictionary* credHash, BOOL *stop) {
+    NSURLCredential* cred = [credHash objectForKey:USER];
+    [store removeCredential:cred forProtectionSpace:space];
+  }];
 }
 
 @end
