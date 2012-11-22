@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0769EC1D1501EAF500CB54BF /* URLProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0769EC1C1501EAF500CB54BF /* URLProtocolViewController.m */; };
+		0769EC211501EB4C00CB54BF /* MyURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 0769EC201501EB4C00CB54BF /* MyURLProtocol.m */; };
 		076F6384150084DE00AC36CA /* USECredentialStorageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F6383150084DE00AC36CA /* USECredentialStorageViewController.m */; };
 		076F6388150088A200AC36CA /* DefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076F6387150088A200AC36CA /* DefaultViewController.m */; };
 		07C1B77914FF8ABD00F1AD6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C1B77814FF8ABD00F1AD6B /* UIKit.framework */; };
@@ -36,6 +38,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0769EC1B1501EAF500CB54BF /* URLProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLProtocolViewController.h; sourceTree = "<group>"; };
+		0769EC1C1501EAF500CB54BF /* URLProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLProtocolViewController.m; sourceTree = "<group>"; };
+		0769EC1F1501EB4C00CB54BF /* MyURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyURLProtocol.h; sourceTree = "<group>"; };
+		0769EC201501EB4C00CB54BF /* MyURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyURLProtocol.m; sourceTree = "<group>"; };
 		076F6382150084DE00AC36CA /* USECredentialStorageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USECredentialStorageViewController.h; sourceTree = "<group>"; };
 		076F6383150084DE00AC36CA /* USECredentialStorageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USECredentialStorageViewController.m; sourceTree = "<group>"; };
 		076F6386150088A200AC36CA /* DefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultViewController.h; sourceTree = "<group>"; };
@@ -88,6 +94,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0769EC1A1501EAF500CB54BF /* USEURLProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				0769EC1B1501EAF500CB54BF /* URLProtocolViewController.h */,
+				0769EC1C1501EAF500CB54BF /* URLProtocolViewController.m */,
+				0769EC1F1501EB4C00CB54BF /* MyURLProtocol.h */,
+				0769EC201501EB4C00CB54BF /* MyURLProtocol.m */,
+			);
+			path = USEURLProtocol;
+			sourceTree = "<group>";
+		};
 		076F6381150084DE00AC36CA /* USECredentialStorage */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +117,7 @@
 		07C1B76914FF8ABD00F1AD6B = {
 			isa = PBXGroup;
 			children = (
+				0769EC1A1501EAF500CB54BF /* USEURLProtocol */,
 				076F6381150084DE00AC36CA /* USECredentialStorage */,
 				07C1B7A314FFAF2300F1AD6B /* USENSURLCredential */,
 				07C1B7A214FFA4AA00F1AD6B /* GTMDefines.h */,
@@ -265,6 +283,8 @@
 				07C1B7A614FFAF7E00F1AD6B /* USENSURLCredentialViewController.m in Sources */,
 				076F6384150084DE00AC36CA /* USECredentialStorageViewController.m in Sources */,
 				076F6388150088A200AC36CA /* DefaultViewController.m in Sources */,
+				0769EC1D1501EAF500CB54BF /* URLProtocolViewController.m in Sources */,
+				0769EC211501EB4C00CB54BF /* MyURLProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

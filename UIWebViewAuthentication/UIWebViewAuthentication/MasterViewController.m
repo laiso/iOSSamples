@@ -8,6 +8,7 @@
 #import "DefaultViewController.h"
 #import "USENSURLCredentialViewController.h"
 #import "USECredentialStorageViewController.h"
+#import "URLProtocolViewController.h"
 
 @implementation MasterViewController
 
@@ -77,7 +78,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-  return 4;
+  return 5;
 }
 
 // Customize the appearance of table view cells.
@@ -99,6 +100,8 @@
     cell.textLabel.text = @"NSURLConnection";  
   }else if(indexPath.row == 2){
     cell.textLabel.text = @"NSURLCredentialStorage";  
+  }else if(indexPath.row == 3){
+    cell.textLabel.text = @"NSURLProtocol";  
   }else{
     cell.textLabel.text = @"Default";  
   }
@@ -115,6 +118,8 @@
     controller = [[USENSURLCredentialViewController alloc] init];
   }else if(indexPath.row == 2){
     controller = [[USECredentialStorageViewController alloc] init];
+  }else if(indexPath.row == 3){
+    controller = [[URLProtocolViewController alloc] init];
   }else{
     controller = [[DefaultViewController alloc] init];
   }
