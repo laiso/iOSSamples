@@ -13,7 +13,7 @@
 
 // 他のテストに影響が出る: 混ぜるな危険
 
-/*
+
 - (void)setUp
 {
   [super setUp];
@@ -24,6 +24,7 @@
 
 -(void)tearDown
 {
+  [NSURLConnectionVCR stopVCRWithError:nil];
   [super tearDown];
 }
 
@@ -36,7 +37,5 @@
   }];
   [self waitForTimeout:3];
 }
- 
- */
 
 @end
