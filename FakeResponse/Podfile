@@ -1,0 +1,13 @@
+platform :ios
+
+target :FakeResponseAppTests, :exclusive => false do
+  pod 'Nocilla'
+  pod 'OHHTTPStubs'
+  pod 'NLTHTTPStubServer'
+  pod 'OCMock'
+
+  # 公式Specリポジトリにはまだないので Vendors/ 以下にチェックアウトする
+  #pod 'SenAsyncTestCase'
+  #pod 'ILTesting'
+  #pod 'NSURLConnectionVCR'
+end
