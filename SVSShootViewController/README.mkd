@@ -1,0 +1,8 @@
+SVSShootViewController
+==========================
+
+Vine風カメラサンプル
+
+PBJVisionを利用しました
+
+https://github.com/piemonte/PBJVision
