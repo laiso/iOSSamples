@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077285CC187D45AF00A14BA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077285CB187D45AF00A14BA1 /* Foundation.framework */; };
+		077285CE187D45AF00A14BA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077285CD187D45AF00A14BA1 /* CoreGraphics.framework */; };
+		077285D0187D45AF00A14BA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077285CF187D45AF00A14BA1 /* UIKit.framework */; };
+		077285D6187D45AF00A14BA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 077285D4187D45AF00A14BA1 /* InfoPlist.strings */; };
+		077285D8187D45AF00A14BA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 077285D7187D45AF00A14BA1 /* main.m */; };
+		077285DC187D45AF00A14BA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 077285DB187D45AF00A14BA1 /* AppDelegate.m */; };
+		077285DF187D45AF00A14BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077285DD187D45AF00A14BA1 /* Main.storyboard */; };
+		077285E2187D45AF00A14BA1 /* SVSShootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077285E1187D45AF00A14BA1 /* SVSShootViewController.m */; };
+		077285E4187D45AF00A14BA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077285E3187D45AF00A14BA1 /* Images.xcassets */; };
+		077285EB187D45AF00A14BA1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077285EA187D45AF00A14BA1 /* XCTest.framework */; };
+		077285EC187D45AF00A14BA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077285CB187D45AF00A14BA1 /* Foundation.framework */; };
+		077285ED187D45AF00A14BA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077285CF187D45AF00A14BA1 /* UIKit.framework */; };
+		077285F5187D45AF00A14BA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 077285F3187D45AF00A14BA1 /* InfoPlist.strings */; };
+		077285F7187D45AF00A14BA1 /* SVSShootViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 077285F6187D45AF00A14BA1 /* SVSShootViewControllerTests.m */; };
+		FE8C4DB529A44D99A2B07545 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E07254D562A84393AC089630 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		077285EE187D45AF00A14BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077285C0187D45AF00A14BA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077285C7187D45AF00A14BA1;
+			remoteInfo = SVSShootViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077285C8187D45AF00A14BA1 /* SVSShootViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVSShootViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077285CB187D45AF00A14BA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		077285CD187D45AF00A14BA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		077285CF187D45AF00A14BA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		077285D3187D45AF00A14BA1 /* SVSShootViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SVSShootViewController-Info.plist"; sourceTree = "<group>"; };
+		077285D5187D45AF00A14BA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		077285D7187D45AF00A14BA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		077285D9187D45AF00A14BA1 /* SVSShootViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVSShootViewController-Prefix.pch"; sourceTree = "<group>"; };
+		077285DA187D45AF00A14BA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		077285DB187D45AF00A14BA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		077285DE187D45AF00A14BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		077285E0187D45AF00A14BA1 /* SVSShootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVSShootViewController.h; sourceTree = "<group>"; };
+		077285E1187D45AF00A14BA1 /* SVSShootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVSShootViewController.m; sourceTree = "<group>"; };
+		077285E3187D45AF00A14BA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		077285E9187D45AF00A14BA1 /* SVSShootViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVSShootViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		077285EA187D45AF00A14BA1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		077285F2187D45AF00A14BA1 /* SVSShootViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SVSShootViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		077285F4187D45AF00A14BA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		077285F6187D45AF00A14BA1 /* SVSShootViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVSShootViewControllerTests.m; sourceTree = "<group>"; };
+		CA6A6BF595004A02A0244F68 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E07254D562A84393AC089630 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077285C5187D45AF00A14BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077285CE187D45AF00A14BA1 /* CoreGraphics.framework in Frameworks */,
+				077285D0187D45AF00A14BA1 /* UIKit.framework in Frameworks */,
+				077285CC187D45AF00A14BA1 /* Foundation.framework in Frameworks */,
+				FE8C4DB529A44D99A2B07545 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077285E6187D45AF00A14BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077285EB187D45AF00A14BA1 /* XCTest.framework in Frameworks */,
+				077285ED187D45AF00A14BA1 /* UIKit.framework in Frameworks */,
+				077285EC187D45AF00A14BA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077285BF187D45AF00A14BA1 = {
+			isa = PBXGroup;
+			children = (
+				077285D1187D45AF00A14BA1 /* SVSShootViewController */,
+				077285F0187D45AF00A14BA1 /* SVSShootViewControllerTests */,
+				077285CA187D45AF00A14BA1 /* Frameworks */,
+				077285C9187D45AF00A14BA1 /* Products */,
+				CA6A6BF595004A02A0244F68 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		077285C9187D45AF00A14BA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077285C8187D45AF00A14BA1 /* SVSShootViewController.app */,
+				077285E9187D45AF00A14BA1 /* SVSShootViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077285CA187D45AF00A14BA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				077285CB187D45AF00A14BA1 /* Foundation.framework */,
+				077285CD187D45AF00A14BA1 /* CoreGraphics.framework */,
+				077285CF187D45AF00A14BA1 /* UIKit.framework */,
+				077285EA187D45AF00A14BA1 /* XCTest.framework */,
+				E07254D562A84393AC089630 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		077285D1187D45AF00A14BA1 /* SVSShootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				077285DA187D45AF00A14BA1 /* AppDelegate.h */,
+				077285DB187D45AF00A14BA1 /* AppDelegate.m */,
+				077285DD187D45AF00A14BA1 /* Main.storyboard */,
+				077285E0187D45AF00A14BA1 /* SVSShootViewController.h */,
+				077285E1187D45AF00A14BA1 /* SVSShootViewController.m */,
+				077285E3187D45AF00A14BA1 /* Images.xcassets */,
+				077285D2187D45AF00A14BA1 /* Supporting Files */,
+			);
+			path = SVSShootViewController;
+			sourceTree = "<group>";
+		};
+		077285D2187D45AF00A14BA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				077285D3187D45AF00A14BA1 /* SVSShootViewController-Info.plist */,
+				077285D4187D45AF00A14BA1 /* InfoPlist.strings */,
+				077285D7187D45AF00A14BA1 /* main.m */,
+				077285D9187D45AF00A14BA1 /* SVSShootViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		077285F0187D45AF00A14BA1 /* SVSShootViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				077285F6187D45AF00A14BA1 /* SVSShootViewControllerTests.m */,
+				077285F1187D45AF00A14BA1 /* Supporting Files */,
+			);
+			path = SVSShootViewControllerTests;
+			sourceTree = "<group>";
+		};
+		077285F1187D45AF00A14BA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				077285F2187D45AF00A14BA1 /* SVSShootViewControllerTests-Info.plist */,
+				077285F3187D45AF00A14BA1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077285C7187D45AF00A14BA1 /* SVSShootViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077285FA187D45AF00A14BA1 /* Build configuration list for PBXNativeTarget "SVSShootViewController" */;
+			buildPhases = (
+				D93D06BC5F3A4325877EB704 /* Check Pods Manifest.lock */,
+				077285C4187D45AF00A14BA1 /* Sources */,
+				077285C5187D45AF00A14BA1 /* Frameworks */,
+				077285C6187D45AF00A14BA1 /* Resources */,
+				405F2E54213C418DB5E252F2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVSShootViewController;
+			productName = SVSShootViewController;
+			productReference = 077285C8187D45AF00A14BA1 /* SVSShootViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		077285E8187D45AF00A14BA1 /* SVSShootViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077285FD187D45AF00A14BA1 /* Build configuration list for PBXNativeTarget "SVSShootViewControllerTests" */;
+			buildPhases = (
+				077285E5187D45AF00A14BA1 /* Sources */,
+				077285E6187D45AF00A14BA1 /* Frameworks */,
+				077285E7187D45AF00A14BA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077285EF187D45AF00A14BA1 /* PBXTargetDependency */,
+			);
+			name = SVSShootViewControllerTests;
+			productName = SVSShootViewControllerTests;
+			productReference = 077285E9187D45AF00A14BA1 /* SVSShootViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077285C0187D45AF00A14BA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					077285E8187D45AF00A14BA1 = {
+						TestTargetID = 077285C7187D45AF00A14BA1;
+					};
+				};
+			};
+			buildConfigurationList = 077285C3187D45AF00A14BA1 /* Build configuration list for PBXProject "SVSShootViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077285BF187D45AF00A14BA1;
+			productRefGroup = 077285C9187D45AF00A14BA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077285C7187D45AF00A14BA1 /* SVSShootViewController */,
+				077285E8187D45AF00A14BA1 /* SVSShootViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077285C6187D45AF00A14BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077285E4187D45AF00A14BA1 /* Images.xcassets in Resources */,
+				077285D6187D45AF00A14BA1 /* InfoPlist.strings in Resources */,
+				077285DF187D45AF00A14BA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077285E7187D45AF00A14BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077285F5187D45AF00A14BA1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		405F2E54213C418DB5E252F2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93D06BC5F3A4325877EB704 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077285C4187D45AF00A14BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077285E2187D45AF00A14BA1 /* SVSShootViewController.m in Sources */,
+				077285DC187D45AF00A14BA1 /* AppDelegate.m in Sources */,
+				077285D8187D45AF00A14BA1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077285E5187D45AF00A14BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077285F7187D45AF00A14BA1 /* SVSShootViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		077285EF187D45AF00A14BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077285C7187D45AF00A14BA1 /* SVSShootViewController */;
+			targetProxy = 077285EE187D45AF00A14BA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		077285D4187D45AF00A14BA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077285D5187D45AF00A14BA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		077285DD187D45AF00A14BA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077285DE187D45AF00A14BA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		077285F3187D45AF00A14BA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077285F4187D45AF00A14BA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		077285F8187D45AF00A14BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		077285F9187D45AF00A14BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		077285FB187D45AF00A14BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA6A6BF595004A02A0244F68 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVSShootViewController/SVSShootViewController-Prefix.pch";
+				INFOPLIST_FILE = "SVSShootViewController/SVSShootViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		077285FC187D45AF00A14BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA6A6BF595004A02A0244F68 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVSShootViewController/SVSShootViewController-Prefix.pch";
+				INFOPLIST_FILE = "SVSShootViewController/SVSShootViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		077285FE187D45AF00A14BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SVSShootViewController.app/SVSShootViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVSShootViewController/SVSShootViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SVSShootViewControllerTests/SVSShootViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		077285FF187D45AF00A14BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SVSShootViewController.app/SVSShootViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVSShootViewController/SVSShootViewController-Prefix.pch";
+				INFOPLIST_FILE = "SVSShootViewControllerTests/SVSShootViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077285C3187D45AF00A14BA1 /* Build configuration list for PBXProject "SVSShootViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077285F8187D45AF00A14BA1 /* Debug */,
+				077285F9187D45AF00A14BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077285FA187D45AF00A14BA1 /* Build configuration list for PBXNativeTarget "SVSShootViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077285FB187D45AF00A14BA1 /* Debug */,
+				077285FC187D45AF00A14BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077285FD187D45AF00A14BA1 /* Build configuration list for PBXNativeTarget "SVSShootViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077285FE187D45AF00A14BA1 /* Debug */,
+				077285FF187D45AF00A14BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 077285C0187D45AF00A14BA1 /* Project object */;
+}
